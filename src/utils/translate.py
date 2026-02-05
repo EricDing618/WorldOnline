@@ -1,7 +1,7 @@
 try:
-    from core import Building,Elevator,Passenger,Floor,Tool
+    from src.core import Building,Elevator,Passenger,Floor,Tool
 except:
-    from .core import Building,Elevator,Passenger,Floor,Tool
+    from ..Building.Elevator.core import Building,Elevator,Passenger,Floor,Tool
 
 class ElevatorTranslate:
     def __init__(self, event:dict[str, str|int|Building|Elevator|Passenger|Floor]):

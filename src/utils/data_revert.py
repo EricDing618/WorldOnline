@@ -1,0 +1,8 @@
+USER_BASICINFO = {
+    "name": "Eric",
+    "gender": "male",
+    "age": 14,
+    "weight": 50,
+    "height":170
+}
+

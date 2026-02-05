@@ -1,4 +1,5 @@
-from src.Building.Elevator.demo import demo
+from src.utils import data_revert as dr
+import os
 
-if __name__ == "__main__":
-    demo()
+print("欢迎来到WorldOnline!")
+print("")
