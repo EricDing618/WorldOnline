@@ -3,7 +3,7 @@ try:
 except:
     from .core import Building,Elevator,Passenger,Floor,Tool
 
-class Translate:
+class ElevatorTranslate:
     def __init__(self, event:dict[str, str|int|Building|Elevator|Passenger|Floor]):
         event_type_:str = event['event_type']
         time_:str = event['time']
